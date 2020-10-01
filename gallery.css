@@ -1,0 +1,20 @@
+img {
+	width: 380px;
+	height:380px;
+	margin:3%;
+}
+h1 {
+	font-family: serif ;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	color: green;
+	text-transform: uppercase;
+	border-top: 3px solid blue;
+	border-bottom: 3px solid blue;
+	border-right: 3px solid blue;
+	border-left: 3px solid blue;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}

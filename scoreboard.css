@@ -1,0 +1,27 @@
+	.winner{
+	color:red;
+	}
+	button {
+		color: red;
+		letter-spacing: 1px;
+		font-size: inherit;
+		outline: double; 
+	}
+	input{
+		color: red;
+		letter-spacing: 1px;
+		font-size: inherit;
+		outline: double; 
+
+	}
+	p{
+		font-family: "Montserrat", "Avenir";
+		font-size: 30px;
+		color: blue;
+
+	}
+	h2{
+		font-size: 50px;
+		color: green;
+		text-align-last: center;
+	}
