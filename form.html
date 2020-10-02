@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Complete Form Solution</title>
+  <style type="text/css">
+    h1{
+      text-align: center;
+      color: red;
+      font-size: 45px;
+    }
+    label{
+      color:blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+
+  <form>
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" placeholder="your name" required />
+      <br>
+      <br>
+      <label for="last-name">  Last Name:</label>
+      <input type="text" name="last-name" id="last-name" placeholder="your name" required />
+    </div>
+    <br>
+     <div>
+        <label for="radio-choice-1">GENDER : Male</label>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+        <label for="radio-choice-2">Female</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+       <label for="radio-choice-3">Other</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
+     </div>
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="your email">
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" pattern=".{5,10}" placeholder="your password" required title="5 to 10 characters">
+    </div>
+    <br>
+    <div>
+      <label for="select-choice">DATE OF BIRTH:</label>
+      <input type="text" name="last-name" id="date" placeholder="dd/mm/yyyy" required />
+    </div>
+    <br> 
+    <div>
+      <label for="checkbox">I agree to the terms and conditions</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+    </div>
+    <br>
+
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>  
+
+</body>
+</html>
