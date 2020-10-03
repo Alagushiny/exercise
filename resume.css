@@ -1,0 +1,39 @@
+body{
+  border:20px outset #FA7022;
+  padding: 10px;
+  max-width: 600px;
+  width: 90%;
+  margin: 20 auto;
+}
+h1{
+	text-align: center;
+	color: orange;
+
+}
+h3{
+	color:orange;
+	font-size:25px;
+}
+li{
+	font-family: 'Cormorant Garamond';
+	color: blue;
+}
+h2{
+	color:red;
+	text-align: center;
+}
+span{
+	color:black;
+}
+p{
+	color:green;
+}
+  .email ,
+  .phone,.age,.addr,.gend {
+    color:brown;
+    font-weight: 400;
+}
+h4{
+	padding: 1px;
+	color:black;
+}
